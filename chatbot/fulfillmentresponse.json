@@ -1,0 +1,39 @@
+{
+    "responseId": "edd75d00-adcd-4c22-be23-98b53165d8a4-07153d3d",
+    "queryResult": {
+      "queryText": "i want a phone",
+      "action": "get_results",
+      "parameters": {
+        "items": "phone"
+      },
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "This is a response from webhook.",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "This is a response from webhook."
+            ]
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/customer-service-bot-kejf/agent/intents/0bf114eb-e02d-43a7-911f-5872783771a6",
+        "displayName": "demo-intent"
+      },
+      "intentDetectionConfidence": 1,
+      "diagnosticInfo": {
+        "webhook_latency_ms": 727
+      },
+      "languageCode": "en",
+      "sentimentAnalysisResult": {
+        "queryTextSentiment": {}
+      }
+    },
+    "webhookStatus": {
+      "message": "Webhook execution successful"
+    }
+  }
+  
+
+  
